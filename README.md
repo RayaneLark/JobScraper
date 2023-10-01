@@ -20,29 +20,29 @@ The JobScraper script is a Python-based tool that allows users to search and ret
 2. Run the command ```pip install -r requirements.txt``` to install all the dependecies used in the script.
 
 
-### 1. Input Parameters
+### 2. Input Parameters
 
 - **Job Name:** The user is prompted to enter the job title or position they are interested in.
 - **Country:** The desired country or location for job searching.
 - **Location:** The specific location or city for job searching.
 - **Number of Results:** The user can specify the number of job listings they want to retrieve.
 
-### 2. Data Scraping
+### 3. Data Scraping
 
 - The script utilizes the 'jobspy' library to scrape job postings from LinkedIn and Indeed.
 - It sends a search query to both platforms, collects job listings, and compiles the results.
 
-### 3. Data Formatting
+### 4. Data Formatting
 
 - The scraped job data is structured into a pandas DataFrame for easy manipulation.
 - The script formats the output for better readability.
 
-### 4. Saving Results
+### 5. Saving Results
 
 - The script saves the job listings as both a CSV (Comma-Separated Values) file and an Excel file (XLSX).
 - The file names include the current date to organize the data.
 
-### 5. Email Notification
+### 6. Email Notification
 
 - The script sends an email notification to the user.
 - It includes a subject line mentioning the date of the job search.
